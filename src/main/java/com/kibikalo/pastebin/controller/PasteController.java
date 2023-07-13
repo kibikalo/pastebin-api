@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class PasteController {
 
-    private PasteService pasteService;
+    private final PasteService pasteService;
 
     @Autowired
     public PasteController(PasteService pasteService) {
