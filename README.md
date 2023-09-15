@@ -10,8 +10,8 @@ In the next versions I will be adding new functionality, improving previous, lea
 ---
 
 ### Initial Requirements:
-* The user can create a block of text and upload it to the system.
-* Can send a link to that block of text to another user, who will see the same block of text when they click on it.
+* The user can create a block of text and upload it to the app.
+* Can send a link to that block of text to another user, who will see the same block of text when they click on the link.
 * Text blocks and links are deactivated after a certain period of time. The user can specify when this happens.
 
 ### Tech-stack:
@@ -27,15 +27,15 @@ In the next versions I will be adding new functionality, improving previous, lea
 
 **Request:**
 
-[![85e9646da831d3fb9c65a9f7111d8f4f.md.png](https://imgtr.ee/images/2023/07/13/85e9646da831d3fb9c65a9f7111d8f4f.md.png)](https://imgtr.ee/image/JtfR5)
+![POST Request Img](https://github.com/kibikalo/pastebin-api/blob/main/src/main/resources/post-reqest.png?raw=true)
 
 **Response:**
 
-[![c8e170e10dba65f3996d30f20010859c.md.png](https://imgtr.ee/images/2023/07/13/c8e170e10dba65f3996d30f20010859c.md.png)](https://imgtr.ee/image/Jtxnh)
+![POST Response Img](https://github.com/kibikalo/pastebin-api/blob/main/src/main/resources/post-response.png?raw=true)
 
 
 ### GET > http://localhost:8080/hash
 
 **Response:**
 
-[![ac110c975dab8006edbf4975686799c2.md.png](https://imgtr.ee/images/2023/07/13/ac110c975dab8006edbf4975686799c2.md.png)](https://imgtr.ee/image/JtkUb)
+![GET Response Img](https://github.com/kibikalo/pastebin-api/blob/main/src/main/resources/get-response.png?raw=true)
