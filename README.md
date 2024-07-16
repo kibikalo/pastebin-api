@@ -1,4 +1,4 @@
-# Pastebin API
+# Pastebin REST API
 
 ## This is my implementation of an application like Pastebin.
 
